@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "package": "com.kriki.customkapes.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["PlayerCapeMixin", "SkinOptionsMixin"],
+  "injectors": { "defaultRequire": 1 }
+}

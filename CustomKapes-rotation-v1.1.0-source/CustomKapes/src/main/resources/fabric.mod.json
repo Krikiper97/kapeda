@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "custom_kapes",
+  "version": "${version}",
+  "name": "Custom Kapes",
+  "description": "A local custom cape loaded from KapeLoader.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.kriki.customkapes.CustomKapesClient"] },
+  "mixins": ["custom_kapes.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.18.3",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
